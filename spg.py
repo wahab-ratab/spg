@@ -182,7 +182,7 @@ def login():
 		    time.sleep(1)
 		
 		    os.system("clear")
-		    os.system("python2 muskan.py")
+		    os.system("python2 spg.py")
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
 		        print ('[!] User Must Verify Account Before Login.')
