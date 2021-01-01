@@ -13,7 +13,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 jam.py')
+    os.system('python2 spg.py')
 
 #Browser Setting
 reload(sys)
@@ -111,7 +111,7 @@ def tlogin():
 	    tlogin()
 	try:
 		toket = open('login.txt','r')
-		os.system('python2 muskan.py')
+		os.system('python2 spg.py')
 	except (KeyError,IOError):
 		methodlogin()
 	else:
@@ -146,7 +146,7 @@ def methodlogin():
 		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
 		os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
-		os.system('python2 muskan.py')
+		os.system('python2 spg.py')
 	
 	elif hos =="3":
 		os.system('clear')
