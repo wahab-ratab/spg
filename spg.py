@@ -161,7 +161,7 @@ def login():
 	os.system("clear")
 	try:
 		tb=open('login.txt', 'r')
-		os.system("python2 muskan.py")
+		os.system("python2 spg.py")
 	except (KeyError,IOError):
 		os.system("clear")
 		print (banner)
