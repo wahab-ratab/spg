@@ -53,20 +53,29 @@ def hamza(z):
 		time.sleep(0.03)
 ##### LOGO #####
 banner = """
-\033[1;96m___  ____   _ _____ _   __  ___   _   _ 
-\033[1;96m|  \/  | | | /  ___| | / / / _ \ | \ | |
-\033[1;96m| .  . | | | \ `--.| |/ / / /_\ \|  \| |
-\033[1;96m| |\/| | | | |`--. \    \ |  _  || . ` |
-\033[1;96m| |  | | |_| /\__/ / |\  \| | | || |\  |
-\033[1;96m\_|  |_/\___/\____/\_| \_/\_| |_/\_| \_/
+██████╗░░█████╗░████████╗░█████╗░██████╗░
+
+██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗
+
+██████╔╝███████║░░░██║░░░███████║██████╦╝
+
+██╔══██╗██╔══██║░░░██║░░░██╔══██║██╔══██╗
+
+██║░░██║██║░░██║░░░██║░░░██║░░██║██████╦╝
+
+╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═════╝░
+
+
+
+
                                                 
 \033[1;91m-----------------------------------------------
-\033[1;92m➣ OWNER   : JAM SHAHRUKH X MUSKAN NOOR
-\033[1;92m➣ Github  : https://github.com/muskanckg
-\033[1;92m➣ GANG    : CRAZY KING GANG
-\033[1;92m➣ Youtube : JAM SHAHRUKH TECHNICAL
-\033[1;92m➣ WhatsApp: +923053176060
-\033[1;91m-----------------------------------------------"""
+\033[1;92m➣ OWNER   : WAHAB RATAB
+\033[1;92m➣ Github  : https://github.com/wahab-ratab
+\033[1;92m➣ GANG    :.       🔥 S P G 🔥
+\033[1;92m➣ Youtube : WAHAB RATAB
+\033[1;92m➣ WhatsApp:  NHI HA 💘
+\033[1;91m----------------------------------------------"""
 # titik #
 def tik():
 	titik = [".   ","..  ","... "]
@@ -80,7 +89,7 @@ def tlogin():
 	os.system('clear')
 	print banner
 	username = raw_input("[+] TOOL USERNAME: ")
-	if username =="jam":
+	if username =="ratab":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: "+username+ " (correct)"
@@ -90,7 +99,7 @@ def tlogin():
 	    tlogin()
 	    
 	passw = raw_input("[+] TOOL PASSWORD: ")
-	if passw =="muskan":
+	if passw =="spg":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: " +username+ " (correct)"
@@ -156,7 +165,7 @@ def login():
 	except (KeyError,IOError):
 		os.system("clear")
 		print (banner)
-		hamza('[!] JAM X MUSKAN BRAND')
+		hamza('[!]WAHAB RATAB BRAND')
 		hamza('[!] Use a New Facebook Account To Login')
 		print'-------------------------------------'
 		iid=raw_input('[+] Number/Email: ')
@@ -171,7 +180,7 @@ def login():
 		    st.close()
 		    print "\n[✓] Logged In Successfully."
 		    time.sleep(1)
-		    os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+		
 		    os.system("clear")
 		    os.system("python2 muskan.py")
 		else:
